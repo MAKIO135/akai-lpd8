@@ -35,9 +35,9 @@ lpd8.K4.on( 'change', velocity => console.log( velocity ) );
 > Events callback are passed *velocity* as argument.
 
 Valid events are:
-- **change**: fired when the controls sends a new message. ( *for all controls* )
-- **noteOn**: fired when the pad fires a *noteOn* message. ( *for pads only* )
-- **noteOff**: fired when the pad fires a *noteOff* message. ( *for pads only* )
+- **change**: fired when a control sends a new message. ( *for all controls* )
+- **noteOn**: fired when a pad fires a *noteOn* message. ( *for pads only* )
+- **noteOff**: fired when a pad fires a *noteOff* message. ( *for pads only* )
 
 You can also use shorthands:
 ```js
@@ -45,3 +45,4 @@ lpd8.K5.change( velocity => console.log( velocity ) );
 lpd8.PAD3.noteOn( velocity => console.log( velocity ) );
 lpd8.PAD4.noteOff( velocity => console.log( velocity ) );
 ```
+> `noteOn` and `noteOff` methods are **only available for pads**.
