@@ -18,7 +18,7 @@ export class Controller extends Reactor {
         this.velocity = velocity;
     
         // dispatch events
-        this.dispatchEvent( 'change' );
+        this.dispatchEvent( 'change', this.velocity );
     }
 
     change( callback ) {
