@@ -1,8 +1,8 @@
 import { Controller } from './Controller.mjs';
 
-export class Slider extends Controller {
+export class Knob extends Controller {
     constructor( name, note ) {
         super( name, note );
-        this.type = 'slider';
+        this.type = 'knob';
     }
 }

@@ -21,7 +21,7 @@
     }
 */
 
-import { Slider } from './Slider.mjs';
+import { Knob } from './Knob.mjs';
 import { Pad } from './Pad.mjs';
 
 // check WebMIDI
@@ -61,7 +61,7 @@ export class AkaiLPD8 {
                 controllersNames.forEach( ( name, i ) => {
                     this[ name ] = name.includes( 'PAD' ) ?
                         new Pad( name, controllersNotes[ i ] ) :
-                        new Slider( name, controllersNotes[ i ] );
+                        new Knob( name, controllersNotes[ i ] );
                 } );
 
                 // TODO: check message is from 'LPD8'
