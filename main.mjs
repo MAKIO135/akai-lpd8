@@ -4,10 +4,12 @@
 
 import { AkaiLPD8 } from './modules/AkaiLPD8.mjs';
 
-const LPD8 = new AkaiLPD8( { log: true } );
+const LPD8 = new AkaiLPD8( { log: false } );
 
-if( LPD8.init() ) {
-    LPD8.K1.on( 'change', vel => console.log( vel ) );
-}
-
-console.log( LPD8 );
+LPD8.init()
+    .then( () => {
+        console.log( LPD8 );
+        LPD8.K1.on( 'change', vel => console.log( { vel } ) );
+        LPD8.PAD5.noteOn( vel => console.log( { vel } ) );
+    } )
+    .catch( error => console.error( { error } ) );
