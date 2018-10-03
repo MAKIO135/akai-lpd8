@@ -20,11 +20,12 @@ module.exports = {
     },
 
     rules: {
-        "import/extensions": 0,
-        "import/prefer-default-export": 0,
+        'import/extensions': 0,
+        'import/prefer-default-export': 0,
 
         indent: [ 2, 4 ], // 4 spaces
         'space-in-parens': [ 2, 'always' ],
+        'template-curly-spacing': ['error', 'always' ],
         'no-console': 'off',
         'keyword-spacing': [ 2, { 
             overrides: {
