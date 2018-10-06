@@ -32,7 +32,7 @@ if( !navigator.requestMIDIAccess ) {
 const controllersNames = [ 'K1', 'K2', 'K3', 'K4', 'K5', 'K6', 'K7', 'K8', 'PAD1', 'PAD2', 'PAD3', 'PAD4', 'PAD5', 'PAD6', 'PAD7', 'PAD8' ];
 const controllersNotes = [ '1', '2', '3', '4', '5', '6', '7', '8', '36', '37', '38', '39', '40', '41', '42', '43' ];
 
-export class AkaiLPD8 {
+export default class {
     /**
      * constructor
      * @param options Object

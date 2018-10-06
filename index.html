@@ -3,12 +3,26 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hello WebMIDI</title>
+    <title>AkaiLPD8.js</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    <h1>Akai LPD8 WebMIDI</h1>
+    <h1>AkaiLPD8.js using WebMIDI</h1>
+ 
     <script type="module" src="./main.mjs"></script>
+   
+    <!-- <script src="dist/AkaiLPD8.min.js"></script>
+    <script>
+        const LPD8 = new AkaiLPD8( { log: true } );
+
+        LPD8.init()
+            .then( () => {
+                console.log( LPD8 );
+                LPD8.K1.on( 'change', vel => console.log( { vel } ) );
+                LPD8.PAD5.noteOn( vel => console.log( { vel } ) );
+            } )
+            .catch( error => console.error( { error } ) );
+    </script> -->
 </body>
 </html>

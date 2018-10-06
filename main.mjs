@@ -2,9 +2,9 @@
 // <script type="module" src="./main.mjs?test=yo"></script>
 // console.log( ( new URL( import.meta.url ) ).searchParams.get( 'test' ) );
 
-import { AkaiLPD8 } from './modules/AkaiLPD8.mjs';
+import AkaiLPD8 from './src/AkaiLPD8.mjs';
 
-const LPD8 = new AkaiLPD8( { log: false } );
+const LPD8 = new AkaiLPD8( { log: true } );
 
 LPD8.init()
     .then( () => {
