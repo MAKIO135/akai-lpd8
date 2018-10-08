@@ -40,10 +40,9 @@ export default class {
      * init: boolean, default: false
      * if not initialized on instanciation, call AkaiLPD8.init() is needed
      */
-    constructor( { log = false, init = false } ) {
+    constructor( { log = false } ) {
         this.log = log;
         this.initialized = false;
-        if( init ) this.init();
     }
 
     init() {
