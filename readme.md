@@ -46,3 +46,9 @@ LPD8.PAD3.noteOn( velocity => console.log( velocity ) );
 LPD8.PAD4.noteOff( velocity => console.log( velocity ) );
 ```
 > `noteOn` and `noteOff` methods are **only available for pads**.
+
+
+### Todo for use of multiple LPD8:
+- AkaiLPD8 class should extend MIDIInput
+- use of static method to find LPD8 devices
+- constructor could take a MIDIInput as argument
