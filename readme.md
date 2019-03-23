@@ -1,7 +1,7 @@
 AkaiLPD8.js
 ===========
 
-![Akai LPD8](http://b8e57dc469f9d8f4cea5-1e3c2cee90259c12021d38ebd8ad6f0f.r79.cf2.rackcdn.com/Product_Images/LPD8_web_large.jpg_2a5e9928f9c871bf86f5a4d05b4453e6.jpg)
+![Akai LPD8](http://b8e57dc469f9d8f4cea5-1e3c2cee90259c12021d38ebd8ad6f0f.r79.cf2.rackcdn.com/Product_Images/lpd8_web_large.jpg_2a5e9928f9c871bf86f5a4d05b4453e6.jpg)
 > The Akai LPD8 is a nice yet not too pricey USB MIDI controller, providing 8 pads and 8 knobs.
 
 **LPD8JS** is an **ES6 module** for using **Web MIDI** with such a MIDI controller offering a simple interface to access each pads and knobs:
