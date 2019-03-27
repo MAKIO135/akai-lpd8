@@ -9,9 +9,8 @@
 
 <body>
     <h1>AkaiLPD8.js using WebMIDI</h1>
- 
-    <!-- <script type="module" src="./main.mjs"></script> -->
-   
+    
+    <!-- Use dist file -->
     <script src="dist/AkaiLPD8.min.js"></script>
     <script>
         const LPD8 = new AkaiLPD8( { log: true } );
@@ -24,5 +23,8 @@
             } )
             .catch( error => console.error( { error } ) );
     </script>
+
+    <!-- or use with ES6 modules -->
+    <!-- <script type="module" src="./main.mjs"></script> -->
 </body>
 </html>

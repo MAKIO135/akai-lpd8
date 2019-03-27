@@ -7,7 +7,7 @@ export class Controller extends Reactor {
         this.name = name;
         this.note = note;
         this.command = null;
-        this.velocity = null;
+        this.velocity = 0;
 
         // register events
         this.registerEvent( 'change' );
