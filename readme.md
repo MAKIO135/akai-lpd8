@@ -11,7 +11,7 @@ npm i akai-lpd8
 
 ```js
 const AkaiLPD8 = require('akai-lpd8')
-// or include <script src="https://unpkg.com/akai-lpd8@1.0.0/"></script>
+// or include <script src="https://unpkg.com/akai-lpd8@1.0.1/"></script>
 
 const LPD8 = new AkaiLPD8()
 
