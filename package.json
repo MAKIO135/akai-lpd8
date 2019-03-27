@@ -1,8 +1,12 @@
 {
-  "name": "lpd8js",
+  "name": "akai-lpd8",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.mjs",
+  "description": "AkaÏ LPD8 web MIDI interface",
+  "main": "dist/AkaiLPD8.min.js",
+  "unpkg": "dist/AkaiLPD8.min.js",
+  "engines": {
+    "node": ">=7.8.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
